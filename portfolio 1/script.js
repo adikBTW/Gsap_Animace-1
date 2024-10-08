@@ -17,10 +17,10 @@ gsap.from(".první-text", {
 });
 
   gsap.from(".soc", {
-    rotation: -360, 
-    x: -100, 
+    opacity: 0, 
+    x: 300, 
     duration: 1
-});
+  });
 
 gsap.from(".container-portfolio", {
     opacity: 0, 
